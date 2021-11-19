@@ -10,7 +10,7 @@ export default function AuthNavigation() {
     <Stack.Navigator>
       <Stack.Screen
         component={LoginScreen}
-        name="Inicio sesión"
+        name="Login"
         options={{ title: "", headerTransparent:"true" }}
       />
     </Stack.Navigator>

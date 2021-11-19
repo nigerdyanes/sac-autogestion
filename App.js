@@ -3,13 +3,13 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 
-import AuthNavigation from "./src/navigation/AuthNavigation";
+import Navigation from "./src/navigation/Navigation";
 
 export default function App() {
   return (
     <SafeAreaProvider>
       <NavigationContainer>
-        <AuthNavigation />
+        <Navigation />
       </NavigationContainer>
     </SafeAreaProvider>
   );
